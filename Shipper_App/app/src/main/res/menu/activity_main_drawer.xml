@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Trang chủ"
+            android:checked="true" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_order_approve"
+            android:title="Đơn đã nhận" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_chart"
+            android:title="Thống kê" />
+        <item
+            android:id="@+id/nav_issues"
+            android:icon="@drawable/ic_warning"
+            android:title="Sự cố" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/ic_money"
+            android:title="Ví thu nhập" />
+    </group>
+
+    <group android:id="@+id/group_logout">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit"
+            android:title="Đăng xuất" />
+    </group>
+
+</menu>
